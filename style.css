@@ -6,27 +6,18 @@
     box-sizing: border-box;
 }
 
+
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 2rem;
     
-    
-    
-    padding-bottom  : 20rem;
 }
-header::before{
-    content: "";
-    position: absolute;
-    background: url('images/bg1.jpg')no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.5;
-}
+
 .logo img{
-width: 7%;
+width: 25%;
 }
 
 nav ul{
@@ -38,6 +29,30 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
+
+color: black;
+}
+
+
+/* content1 */
+
+.content1{
+    background: url('images/bg1.jpg')no-repeat center center/cover;
+   padding: 10rem;
+    }
+
+
+/* content2 */
+
+.content2{
+    border-left: 2px solid black;
+margin:  2rem 10rem;
+   
+}
+.content2 p{
+    text-align: center;
+}
+=======
 }
 
 /* cards */
@@ -227,3 +242,4 @@ body {
    }
 }
 
+>>>>>>> d5b1b51dc5a87c7270525bc8b41cdfb140c72020
