@@ -39,13 +39,13 @@ color: black;
 
 /* content1 */
 
-/* .content1{
+.content1{
     background: url('images/bg2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
    padding: 25rem;
-    } */
+    }
 
 
 /* content2 */
@@ -159,7 +159,4 @@ form button{
         text-shadow: -5px 0 rgba(244, 67, 54, 1), 5px -4px rgba(33, 150, 243, 1);
    }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 195ac56639b9c1fe088f93cd8ab9a0ed294c2cb8
