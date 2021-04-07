@@ -80,6 +80,7 @@ margin:  2rem 10rem;
 }
 .card .image {
     border:0.5rem solid #000;
+    margin: auto;
     display: flex;
     width: 200px;
     height: auto;
