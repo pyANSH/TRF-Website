@@ -19,7 +19,10 @@ header{
 .logo img{
 width: 25%;
 }
-
+.logo img:hover{
+    width: 30%;
+    cursor: pointer;
+}
 nav ul{
     display: flex;
 }
@@ -36,10 +39,13 @@ color: black;
 
 /* content1 */
 
-.content1{
-    background: url('images/bg1.jpg')no-repeat center center/cover;
-   padding: 10rem;
-    }
+/* .content1{
+    background: url('images/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 25rem;
+    } */
 
 
 /* content2 */
@@ -52,20 +58,65 @@ margin:  2rem 10rem;
 .content2 p{
     text-align: center;
 }
-=======
+
+
+
+
+/* content3 */
+
+.content3{
+    display: flex;
+justify-content: center;
+margin: 3rem;
+align-items: center;
+padding-top: 2rem;
+border-top: 2px solid black;
+}
+.content3 img{
+    width: 20%;
+    height: 20%;
+box-shadow: -5px 0px 16px black;
+border-radius: .5rem 0 0 .5rem;
 }
 
+form{
+    
+    display: flex;
+    flex-direction: column;
+padding:2.6rem 2.2rem;
+border-radius: 0 .5rem .5rem 0;
+box-shadow: 5px 0px 16px black;
+}
+form input{
+    
+        margin: 1rem;
+    padding: .5rem 0.5rem;
+border: .5px solid black;
+}
+.msg{
+    padding: 2rem .5rem ;
+}
+form button{
+    margin: 0 1rem;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: .5rem;
+}
 
-
-
+.content3 .contact h2{
+    text-transform: uppercase;
+    
+}
 
 
 
 /* footer-logo */
 .flex-center {
     width: 100%;
-    min-height: 50vh;
+    min-height: 35vh;
     background: #000;
+    padding-right: 4rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -73,7 +124,7 @@ margin:  2rem 10rem;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: flex-end;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -107,4 +158,3 @@ margin:  2rem 10rem;
    }
 }
 
->>>>>>> d5b1b51dc5a87c7270525bc8b41cdfb140c72020
