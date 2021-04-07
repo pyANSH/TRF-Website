@@ -166,6 +166,15 @@ form button{
 
 
 /* footer-logo */
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.logo1 img{
+    width: 20%;
+}
 .flex-center {
     width: 100%;
     min-height: 35vh;
