@@ -87,7 +87,8 @@ margin:  2rem 10rem;
     border-radius: 50%;
 }
 .card .title {
-    font-size: 36px;
+    font-size: 21px;
+    text-transform: uppercase;
 }
 .card .text {
     font-size: 16px;
@@ -169,9 +170,9 @@ form button{
 /* footer-logo */
 .flex-center {
     width: 100%;
-    min-height: 35vh;
+    
     background: #000;
-    padding-right: 4rem;
+    padding: 2.5rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
