@@ -20,10 +20,10 @@ header {
     width: 25%;
 }
 
-.logo img:hover {
+/* .logo img:hover {
     width: 30%;
     cursor: pointer;
-}
+} */
 
 nav ul {
     display: flex;
